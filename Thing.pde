@@ -14,6 +14,24 @@ class Thing {
     c = tempC;
     xPos = tempXpos;
     yPos = tempYpos;
-    rad = tempRad
+    rad = tempRad;
+    xSpeed = tempXspeed;
+    ySpeed = tempYspeed;
+  }
+ 
+  void display(){
+    noStroke();
+    fill(c);
+    circle(xPos, yPos, rad);
+  }
+/*   
+  void move() {
+    xPos = xPos + xSpeed;
+    yPos = yPos + ySpeed; 
     
+    
+    
+  }
+*/
+
 }
